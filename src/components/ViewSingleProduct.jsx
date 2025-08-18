@@ -12,7 +12,6 @@ import BrandingWatermarkIcon from "@mui/icons-material/BrandingWatermark";
 import { GoDotFill } from "react-icons/go";
 import HotelClassIcon from "@mui/icons-material/HotelClass";
 import PriceFormatter from './../utilities/PriceFormatter';
-import ProductRating from './../../../Front-end/src/Components/Rating';
 import { WiTime11 } from "react-icons/wi";
 import { CiDiscount1 } from "react-icons/ci";
 import { MdRateReview } from "react-icons/md";
