@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+.active{
+    color: white;
+    background-color: #212e65;
+    
+}
+.container {
+    container-type: inline-size;
+  }
+
+
+  @container (max-width: 250px) {
+    .DashboardHeader {
+display: grid;
+grid-template-columns: 1fr;
+.child:nth-child(1){
+    order: 2;
+  }
+  .child:nth-child(2){
+    order: 1;
+    margin: auto;
+  }
+    }
+  }
+
+.sliderChild::-webkit-scrollbar{
+  width: 5px;
+  background-color: rgb(168, 168, 168);
+}
+.sliderChild::-webkit-scrollbar-track{
+  background-color: #e5e3e3;
+  width: 5px;
+  height: 5px !important;
+}
+.sliderChild::-webkit-scrollbar-thumb{
+  background-color: rgb(169, 171, 169);
+  height: 10px !important;
+  border-radius: 20px;
+}
+
+
+  .smLight{
+    font-size: small;
+    color: rgb(94, 93, 93);
+  }
+  .xsLight{
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+  }
+  .xsLight_2{
+    font-size: 9px;
+    color: rgb(0, 0, 0);
+  }
+
+  .greenShadow{
+    box-shadow: 0px 0px 10px 0px rgba(0, 128, 0, 0.1);
+  }
+  

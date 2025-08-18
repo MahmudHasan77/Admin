@@ -1,0 +1,124 @@
+.customshadow2 {
+  box-shadow: 0px 0px 20px 1px rgb(216, 216, 216);
+}
+.customshadow1 {
+  box-shadow: 0px 0px 20px 1px rgb(238, 238, 238);
+}
+.ReactCollapse--collapse {
+  transition: height 500ms;
+}
+
+@media (max-width: 50px) {
+  .DashboardHeader {
+    background-color: #fff !important;
+  }
+}
+
+.createAccount {
+  background-color: #fc3f3f;
+  background: linear-gradient(
+    50deg,
+    red,
+    blue,
+    tomato,
+    green,
+    orange,
+    blue,
+    tomato
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #0037ff;
+  animation: createAccount 5s linear infinite;
+}
+@keyframes createAccount {
+  50% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+.animationTextColor{
+  background-color: orange;
+  background: linear-gradient(180deg, red,orange,blue,white,black,green,tomato);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color: tomato;
+  animation: textAnimation 3s linear infinite;
+}
+@keyframes textAnimation {
+  50%{
+    filter: hue-rotate(360deg);
+  }
+}
+.signIn {
+  background: #ff0000;
+  background: linear-gradient(
+    50deg,
+    red,
+    blue,
+    tomato,
+    green,
+    orange,
+    blue,
+    tomato
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #0037ff;
+  animation: signIn 5s linear infinite;
+}
+@keyframes signIn {
+  50% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+handleBefore::before {
+  content: "R -";
+  background-color: yellow;
+  color: red;
+  font-weight: bold;
+}
+
+.custom_h_w {
+  height: 0px;
+  width: 0px;
+  background-color: #fff;
+  box-shadow: 0px 0px 100px 1px rgb(154, 154, 154);
+
+  animation: custom_box 0.1s  forwards;
+}
+
+@keyframes custom_box {
+  0% {
+    height: 0px;
+    width: 0px;
+        opacity: 0;
+
+  }
+  100% {
+    height: 220px;
+    width: 400px;
+    opacity: 1;
+  }
+}
+/* .custom_h_w_2 {
+  background-color: #fff;
+  box-shadow: 0px 0px 100px 1px rgb(154, 154, 154);
+
+  animation: custom_box 2s linear forwards;
+}
+
+@keyframes custom_box {
+  0% {
+    height: 200px;
+    width: 400px;
+  }
+  100% {
+    height: 0px;
+    width: 0px;
+  }
+} */
+
+
+
+.customShadow{
+  box-shadow: 0px 0px 10px 1px rgb(236, 236, 236);
+}
